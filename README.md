@@ -2,4 +2,7 @@
 
 # Jaydees-E-Commerce-
 
-This is E-Commerce Website which shows my Personal skills 
+This E-Commerce Website which shows my Front End Development skills 
+
+##Live Website
+You can view the live website at [Jaydees](https://jaydees.netlify.app/)
