@@ -1,0 +1,756 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: #000000;
+}
+
+header {
+    width: 100%;
+    height: 41px;
+    background: #588E8D;
+}
+
+header h4 {
+    background: #588E8D;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#navbar {
+    width: 100%;
+    height: 59px;
+    background: #000000;
+    box-shadow: 0px 2px 40px rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-1 {
+    margin-left: 6%;
+}
+
+.navbar-1 ul {
+    display: flex;
+    margin-top: 20px;
+}
+
+.navbar-1 ul li {
+    list-style: none;
+    padding: 0px 70px 0px 0px;
+}
+
+.navbar-1 ul li a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #008D8B;
+}
+
+.navbar-1 ul li a:hover {
+    color: #27d3d0;
+    transition: 0.1 ease;
+}
+
+.navbar-2 {
+    margin-right: 6%;
+    margin-top: 11px;
+}
+
+.navbar-2 input {
+    height: 36px;
+    width: 118px;
+    background: #588E8D;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    padding-left: 1px;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    outline: none;
+}
+
+.navbar-2 input::placeholder {
+    color: #DEE2ED;
+    text-align: center;
+}
+
+/* For logo */
+.Section-One {
+    margin-top: 35px;
+}
+
+.logo {
+    width: 185px;
+    margin: 0px auto;
+}
+
+.logo img {
+    width: 185px;
+    height: 82px;
+}
+
+.Section-Two section {
+    background: url(../Images/backround.png);
+    width: 100%;
+    height: 346px;
+}
+
+.Section-Two a {
+    text-decoration: none;
+}
+
+.mainHeading {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    width: 50%;
+    margin: auto;
+    font-size: 60px;
+    line-height: 105%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #008D8B;
+}
+
+.para {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 22px;
+    color: #DEE2ED;
+    text-align: center;
+}
+
+.btm-padng {
+    padding: 20px 0px 29px 0px;
+}
+
+.btm-pdng {
+    padding: 0px 0px 27px 0px;
+}
+
+.bttn {
+    width: 163px;
+    height: 45px;
+    background: #008D8B;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #DEE2ED;
+    cursor: pointer;
+    display: block;
+    margin: 0px auto;
+}
+
+.func:hover {
+    transition: 0.2s ease;
+    background: #015c5a;
+}
+
+.MainSections {
+    height: 793px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.commonHeading {
+    font-family: 'Oswald';
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #008D8B;
+}
+
+.commonPara {
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-align: center;
+    font-size: 22px;
+    color: #DEE2ED;
+}
+
+.products {
+    display: flex;
+    width: 943.91px;
+    margin: 0px auto;
+    margin-top: 33px;
+    justify-content: space-between;
+}
+
+.product-1 {
+    width: 450px;
+    height: 604.23px;
+    background: #E3E3E3;
+    border-radius: 12px;
+}
+
+.product-2 {
+    width: 450px;
+    height: 604.23px;
+    background: #E3E3E3;
+    border-radius: 12px;
+}
+
+.Allproduct img {
+    width: 402px;
+    height: 405px;
+    display: block;
+    margin: 20px auto;
+    background: #B7B7B7;
+    border-radius: 12px;
+}
+
+.Pricing {
+    font-family: 'Poppins';
+    margin: 0px 0px 12px 23px;
+    font-size: 18px;
+    color: #101010;
+}
+
+.sameButton {
+    width: 166.94px;
+    height: 45.36px;
+    background: #008D8B;
+    border-radius: 8px;
+    margin-left: 23px;
+
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 30px;
+    color: #DEE2ED;
+    cursor: pointer;
+    border: none;
+}
+
+.Contact {
+    width: 100%px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #008D8B;
+}
+
+.Contact h2 {
+    font-family: 'Oswald';
+    font-size: 40px;
+    letter-spacing: 0.03em;
+    color: #DEE2ED;
+}
+
+.Contact img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0px 0px 0px 37px;
+}
+
+.footer {
+    width: 100%;
+    height: 65px;
+    background: #588E8D;
+}
+
+.footer h4 {
+    font-family: 'Poppins';
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: #DEE2ED;
+}
+
+
+@media screen and (max-width: 992px) {
+    .mainHeading {
+        width: 68%;
+    }
+
+    .products {
+        width: 846px;
+    }
+
+    .product-1,
+    .product-2 {
+        width: 413px;
+        height: 573.23px;
+        background: #E3E3E3;
+        border-radius: 12px;
+    }
+
+    .Allproduct img {
+        width: 374px;
+        height: 380px;
+    }
+}
+
+
+@media screen and (max-width: 876px) {
+    .navbar-1 ul li {
+        list-style: none;
+        padding: 0px 44px 0px 0px;
+    }
+
+    .MainSections {
+        height: 731px;
+    }
+
+    .commonHeading {
+        font-family: 'Oswald';
+        margin-top: 0px;
+    }
+
+    .products {
+        width: 763px;
+    }
+
+    .product-1,
+    .product-2 {
+        width: 372px;
+        height: 535.23px;
+        background: #E3E3E3;
+        border-radius: 12px;
+    }
+
+    .Allproduct img {
+        width: 327px;
+        height: 327px;
+    }
+
+    .Contact img {
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        margin: 7px 0px 0px 19px;
+    }
+
+    .Contact h2 {
+        font-size: 37px;
+    }
+}
+
+
+@media screen and (max-width: 788px) {
+    .navbar-1 {
+        margin-left: 3%;
+    }
+
+    .navbar-2 {
+        margin-right: 3%;
+        margin-top: 11px;
+    }
+
+    .navbar-1 ul li {
+        list-style: none;
+        padding: 0px 30px 0px 0px;
+    }
+
+    .mainHeading {
+        width: 85%;
+    }
+
+    .product-1,
+    .product-2 {
+        width: 343px;
+        height: 492.23px;
+        background: #E3E3E3;
+        border-radius: 12px;
+    }
+
+    .MainSections {
+        height: 677px;
+    }
+
+    .products {
+        width: 699px;
+    }
+
+    .Allproduct img {
+        width: 295px;
+        height: 285px;
+    }
+
+    .Contact h2 {
+        font-size: 33px;
+    }
+
+    .footer h4 {
+        font-family: 'Poppins';
+        display: flex;
+        font-weight: 400;
+        width: 90%;
+        line-height: 147%;
+        text-align: center;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 6px;
+        color: #DEE2ED;
+    }
+}
+
+
+@media screen and (max-width: 704px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        box-shadow: 0px 2px 40px rgb(255 255 255 / 30%);
+    }
+
+    .MainSections {
+        height: 1340px;
+    }
+
+    .products {
+        width: 609px;
+        flex-direction: column;
+    }
+
+    .product-1,
+    .product-2 {
+        width: 468px;
+        height: 552.23px;
+        background: #E3E3E3;
+        margin: 20px auto;
+        border-radius: 12px;
+    }
+
+    .Allproduct img {
+        width: 420px;
+        height: 366px;
+    }
+
+
+    .Contact {
+        width: 100%px;
+        height: 115px;
+    }
+
+    .Contact h2 {
+        font-size: 25px;
+    }
+
+    .Contact img {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        margin: 0px 0px 0px 19px;
+    }
+
+    .footer h4 {
+        font-family: 'Poppins';
+        display: flex;
+        font-weight: 400;
+        width: 90%;
+        line-height: 147%;
+        text-align: center;
+        font-size: 16px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 6px;
+        color: #DEE2ED;
+    }
+}
+
+@media screen and (max-width: 613px) {
+
+    .products {
+        width: 469px;
+        flex-direction: column;
+    }
+
+    .mainHeading {
+        width: 95%;
+    }
+
+    .mainHeading {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        margin: auto;
+        font-size: 48px;
+    }
+
+    .Contact {
+        width: 100%px;
+        height: 75px;
+    }
+
+    .Contact h2 {
+        font-size: 17px;
+    }
+
+    .Contact img {
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+        margin: 0px 0px 0px 14px;
+    }
+
+    .footer h4 {
+        font-family: 'Poppins';
+        display: flex;
+        font-weight: 400;
+        width: 90%;
+        line-height: 147%;
+        text-align: center;
+        font-size: 12px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 6px;
+        color: #DEE2ED;
+    }
+}
+
+
+@media screen and (max-width: 485px) {
+    .para {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 17px;
+        color: #DEE2ED;
+        text-align: center;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .product-1,
+    .product-2 {
+        width: 93%;
+        height: 528.23px;
+        background: #E3E3E3;
+        margin: 20px auto;
+        border-radius: 12px;
+    }
+
+    .sameButton {
+        width: 134.94px;
+        height: 39.36px;
+        background: #008D8B;
+        border-radius: 8px;
+        margin-left: 23px;
+        font-family: 'Poppins';
+        font-size: 16px;
+        line-height: 30px;
+        color: #DEE2ED;
+        cursor: pointer;
+        border: none;
+    }
+
+    .Allproduct img {
+        width: 91%;
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 469px) {
+    .products {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .mainHeading {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        margin: auto;
+        font-size: 41px;
+    }
+
+    .Pricing {
+        font-family: 'Poppins';
+        margin: 0px 0px 12px 23px;
+        font-size: 16px;
+        color: #101010;
+    }
+
+    .bttn {
+        width: 144px;
+        height: 40px;
+        background: #008D8B;
+        border-radius: 8px;
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #DEE2ED;
+        cursor: pointer;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .Contact h2 {
+        font-size: 19px;
+    }
+
+    .logo img {
+        width: 144px;
+        height: 67px;
+    }
+
+    .logo {
+        width: 144px;
+        margin: 0px auto;
+    }
+
+    header h4 {
+        background: #588E8D;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        letter-spacing: 0.09em;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 469px) {
+    .Section-Two section {
+        background: url(../Images/backround.png);
+        width: 100%;
+        height: 279px;
+    }
+
+    .mainHeading {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        margin: auto;
+        font-size: 35px;
+    }
+
+    .para {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .bttn {
+        width: 113px;
+        height: 35px;
+        background: #008D8B;
+        border-radius: 8px;
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .commonHeading {
+        font-family: 'Oswald';
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 31px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #008D8B;
+    }
+
+    .commonPara {
+        font-family: 'Poppins';
+        font-weight: 400;
+        text-align: center;
+        font-size: 15px;
+        color: #DEE2ED;
+    }
+
+    .sameButton {
+        width: 106.94px;
+        height: 32.36px;
+    }
+
+    .MainSections {
+        height: 1249px;
+    }
+
+    .Contact h2 {
+        font-size: 17px;
+    }
+
+    .Contact img {
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .footer h4 {
+        font-family: 'Poppins';
+        display: flex;
+        font-weight: 400;
+        width: 90%;
+        line-height: 147%;
+        text-align: center;
+        font-size: 10px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 17px;
+    }
+
+    .Pricing {
+        font-family: 'Poppins';
+        margin: 0px 0px 12px 23px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 334px) {
+
+    .Allproduct img {
+        width: 91%;
+        height: 61%;
+    }
+
+    .product-1,
+    .product-2 {
+        width: 93%;
+        height: 473.23px;
+    }
+
+    .MainSections {
+        height: 1132px;
+    }
+
+    .Contact img {
+        width: 15px;
+        height: 13px;
+        cursor: pointer;
+        margin: 0px 0px 0px 8px;
+    }
+}
